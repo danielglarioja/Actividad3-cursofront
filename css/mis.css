@@ -1,0 +1,244 @@
+body{
+    background-color: blue;
+    opacity: 0.9;
+}
+.carousel-item{
+    height: 50vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    background-size: cover;
+}
+.carousel-item img{
+    height: 100%;
+}
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(172, 172, 180, 0.397);
+    opacity: 0.9;
+}
+.carousel-caption{
+    bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.carousel-caption h5{
+    font-size: 100px;
+    font-weight: 700;
+    color:#e74c3c;
+}
+.carousel-caption p{
+    font-size: 18px;
+    top: 2rem;
+    background: blue;
+    opacity: 0.6;
+}
+.slider-btn{
+    margin-top: 30px;
+}
+.slider-btn .btn{
+    background: #e74c3c;
+    color: white;
+    border-radius: 20;
+    font-size: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+/* presentacion*/
+.tarjeta{
+    margin: auto;
+}
+.tarjpartners{
+    text-align: left;
+    height: 15em;
+    background:silver;
+    overflow: hidden;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+    padding: 1em;
+    }
+.tarjcontacto{
+    text-align: left;
+    height: 30em;
+    background:silver;
+    overflow: hidden;
+    margin-left: 4em;
+    margin-right: 4em;
+    border-radius: 2em;
+    padding: 1em;
+}
+.tarjpartners h4{
+    background:#e74c3c;
+    border-radius: 1em;
+    color: white;
+}
+.tarjpartners img{
+    float: left;
+    width: 30vw;
+    height: 10em;
+    border-radius: 1em;
+    margin-left: 2em;
+}
+#img2tarjpartners{
+    float: right;
+    margin-right: 2em;
+}
+.tarjpartnerstexto{
+    margin-left: 29em;
+    margin-right: 2em;
+    background: blue;
+    color: white;
+    border-radius: 1em;
+    text-align: justify;
+    padding: 1em;
+    height: 10em;
+}
+.tarjformcontacto{
+    margin-left: 2em;
+    margin-right: 2em;
+    background: blue;
+    color: white;
+    border-radius: 1em;
+    text-align: justify;
+    padding: 1em;
+    height: 26em;
+}
+#tarjpartnerstexto{
+    margin-left: 2em;
+    margin-right: 29em;
+}
+
+.tarjeta img{
+    width: 30%;
+    border-radius: 15px;
+    margin: 10px;
+}
+.img-tarjeta{
+    text-align: center;
+}
+.img-tarjeta h5{
+    font-size: 3em;
+    font-weight: 200rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e74c3c;
+}
+.tarjeta p, a{
+    color: white;
+    text-align: left;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.tarjdoble{
+    overflow: hidden;
+    background: #e74c3c;
+    width: 70vw;
+    margin: auto;
+    text-align: center;
+    border-radius: 2em;
+}
+.tarjf2{
+    float: left;
+    width: 46%;
+    margin: 2%;
+    padding: auto;
+    background: blue;
+    color: white;
+    padding: 1em;
+}
+.card-body{
+    background: rgb(137, 174, 204);
+}
+.card-body h5{
+    background: tomato!important;
+    color: white;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    background: darkgrey;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    border-top-right-radius: 2em;
+    border-top-left-radius: 2em;
+    height: 15em;
+    
+}
+.itemfooter{
+    border-color: white;
+    border-style: solid;
+    float: left;
+    width: 25%;
+    height: 65%;
+    text-align: center;
+    padding: 1em;
+    min-width: 300px;
+    margin-bottom: 0px;
+}
+#foo1{
+    background: chocolate;
+}
+#foo2{
+    background-color: rgb(160, 158, 31);
+}
+#foo3{
+    background-color: rgb(233, 38, 38);
+}
+#foo4{
+    background: blue;
+    width: 50%;
+    color: white;
+}
+#foo5{
+    background: blue;
+    width: 50%;
+    color: white;
+}
+#foo5 img{
+    width: 15em;
+    height: 5em;
+    border-color: white;
+    border-style: solid;
+    background: dodgerblue;
+}
+.itemfooter img{
+    width: 30%;
+    height: 50%; 
+}
+.itemservicios{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    height: 25em;
+    color: white;
+    width: 95vw;
+    margin-left: 5em;
+}
+.itemserv{
+    border-color: white;
+    border-style: solid;
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 1em;
+    min-width: 300px;
+}
+.itemserv img{
+    width: 75%;
+    height: 50%;
+    border-radius: 2em;
+}
+.vacantes{
+    color: white;
+    margin-left: 8em;
+    margin-right: 8em;
+}
